@@ -15,24 +15,10 @@ class Dashboard extends StatelessWidget {
         ),
         backgroundColor: Colors.blue,
       ),
-      body: Center(
-        // child: Text.rich(
-        //     TextSpan(
-        //         text: "My",
-        //         children: [
-        //           TextSpan(
-        //               text: 'First',
-        //               style: TextStyle(fontSize: 40, color: Colors.blue, fontWeight: FontWeight.bold)
-        //           ),
-        //           TextSpan(
-        //               text: 'App',
-        //               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.red)
-        //           ),
-        //         ]
-        //     )
-        // ),
-        child: Text('Random number: ${getRandomNumber()}')
-      ),
+      body: Image(image: AssetImage('images/pm-img2.jpeg'),
+          width: 400,
+          fit: BoxFit.fill
+      )
     );
   }
 }
