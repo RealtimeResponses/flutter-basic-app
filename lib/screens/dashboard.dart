@@ -16,10 +16,13 @@ class Dashboard extends StatelessWidget {
           backgroundColor: Colors.blue,
         ),
         body: Center(
-          child: Icon(
-            Icons.settings_accessibility,
-            size: 100,
-            color: Colors.pink,
+          child: IconButton(
+            icon: Icon(
+              Icons.settings_accessibility,
+              size: 100,
+              color: Colors.pink,
+            ),
+            onPressed: (){},
           ),
         ),
     );
