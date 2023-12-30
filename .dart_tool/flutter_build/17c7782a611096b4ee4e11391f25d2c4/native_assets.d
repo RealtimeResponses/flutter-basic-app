@@ -1,0 +1,1 @@
+ /Users/realtime/Desktop/projects/training/my-first-flutter-app/.dart_tool/flutter_build/17c7782a611096b4ee4e11391f25d2c4/native_assets.yaml: 

@@ -1,0 +1,4 @@
+#Sat Dec 30 17:27:28 WAT 2023
+base.0=/Users/realtime/Desktop/projects/training/my-first-flutter-app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
