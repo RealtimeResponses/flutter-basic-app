@@ -8,17 +8,20 @@ class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
+        appBar: AppBar(
+          title: Text(
             'Dashboard'.toUpperCase(),
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          ),
+          backgroundColor: Colors.blue,
         ),
-        backgroundColor: Colors.blue,
-      ),
-      body: Image(image: AssetImage('images/pm-img2.jpeg'),
-          width: 400,
-          fit: BoxFit.fill
-      )
+        body: Center(
+          child: Icon(
+            Icons.settings_accessibility,
+            size: 100,
+            color: Colors.pink,
+          ),
+        ),
     );
   }
 }
